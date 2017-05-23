@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "610856611620",
+    "firebase_url": "https://fir-hello-ea92a.firebaseio.com",
+    "project_id": "fir-hello-ea92a",
+    "storage_bucket": "fir-hello-ea92a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610856611620:android:d772464727cb48eb",
+        "android_client_info": {
+          "package_name": "android.consultafrota.com.hellofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610856611620-5sqlqpidl32obsb4men5sp1agib1tr9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn_eKbkevKoNBcqIlh2N8e6l6oq5PD4Pg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610856611620:android:f29305425c972eae",
+        "android_client_info": {
+          "package_name": "android.consultafrota.com.firebase_samples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610856611620-5sqlqpidl32obsb4men5sp1agib1tr9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn_eKbkevKoNBcqIlh2N8e6l6oq5PD4Pg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
