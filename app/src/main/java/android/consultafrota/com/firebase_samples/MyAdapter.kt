@@ -12,7 +12,6 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.ViewHolder>
     var mDataset:Array<String>? = null;
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ViewHolder {
-
          val v = LayoutInflater.from(parent?.context).inflate(R.layout.my_text_view,parent,false)
          val vh = ViewHolder(v)
         return vh
@@ -28,7 +27,6 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.ViewHolder>
 
     class ViewHolder : RecyclerView.ViewHolder
     {
-        var mTextView:TextView?=null
         var mText:TextView?=null
         constructor(v:View): super(v)
         {
@@ -40,6 +38,5 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.ViewHolder>
     {
         mDataset = myDataset
     }
-
 }
 
