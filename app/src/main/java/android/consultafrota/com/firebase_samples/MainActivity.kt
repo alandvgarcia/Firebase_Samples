@@ -37,6 +37,8 @@ class MainActivity : AppCompatActivity() {
 
         mAuth = FirebaseAuth.getInstance()
 
+
+
         mAuthListener = FirebaseAuth.AuthStateListener {
 
                 var user: FirebaseUser? = mAuth?.currentUser
@@ -68,6 +70,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        FazerLogout()
+    }
+
     fun FazerLogin()
     {
         //Toast.makeText(this,"Tentar logar",Toast.LENGTH_SHORT).show()
@@ -79,6 +86,15 @@ class MainActivity : AppCompatActivity() {
             CarregarTelaLista()
             }
         }
+    }
+
+    fun FazerLogout()
+    {
+        if(mAuth?.currentUser != null) {
+            FirebaseAuth.getInstance().signOut();
+            Toast.makeText(this,"Logout feito com sucesso!",Toast.LENGTH_SHORT).show()
+        }
+
     }
 
     fun CarregarTelaLista()
