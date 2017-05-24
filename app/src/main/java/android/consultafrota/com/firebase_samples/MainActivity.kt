@@ -75,8 +75,9 @@ class MainActivity : AppCompatActivity() {
         {
            task: Task<AuthResult> -> if (!task.isSuccessful){
                 Toast.makeText(this,"ERROR",Toast.LENGTH_SHORT).show()
-            }else
-                Toast.makeText(this,"SUCESSO",Toast.LENGTH_SHORT).show()
+            }else {
+            CarregarTelaLista()
+            }
         }
     }
 
